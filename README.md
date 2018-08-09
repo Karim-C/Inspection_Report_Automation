@@ -4,7 +4,7 @@ An Inspection Report Automation tool for generating building inspection reports 
 
 Team members:<br/>
 Jonathan Soulsby <br/>
-Pulkit Kara<br/>
+Pulkit Kalra<br/>
 Victor Lian<br/>
 Mike Lee<br/>
 CJ Bang<br/>
