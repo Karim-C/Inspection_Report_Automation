@@ -9,3 +9,7 @@ script:
   - npm install
   - npm test
   - npm run build
+deploy:
+  provider: azure_web_apps
+  site: https://inspetionreporttest30559.azurewebsites.net
+  on: master
