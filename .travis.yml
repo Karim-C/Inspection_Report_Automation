@@ -4,9 +4,7 @@ sudo: required
 dist: trusty
 sctipt:
   - cd inspection-report-client
-install:
   - npm install
-script:
   - npm run test
   - npm run build
 before_deploy:
