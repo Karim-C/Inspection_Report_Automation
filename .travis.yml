@@ -5,11 +5,14 @@ cache:
   directories:
   - node_modules
 script:
-  - cd inspection-report-app
+  - cd inspection-report-client
   - npm install
   - npm test
   - npm run build
+before_deploy:
+  - cd build
 deploy:
   provider: azure_web_apps
+  skip_cleanup: true
   site: https://inspetionreporttest30559.azurewebsites.net
   on: master
