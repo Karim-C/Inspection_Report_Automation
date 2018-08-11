@@ -1,6 +1,6 @@
 # Inspection Report Automation
 
-An Inspection Report Automation tool for generating building inspection reports from templates
+An Inspection Report Automation tool for generating building inspection reports from templates.
 
 Team members:<br/>
 Jonathan Soulsby <br/>
