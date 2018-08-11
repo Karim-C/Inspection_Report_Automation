@@ -5,7 +5,6 @@ dist: trusty
 sctipt:
   - cd inspection-report-client
 install:
-  - npm cache clean
   - npm install
 script:
   - npm run test
