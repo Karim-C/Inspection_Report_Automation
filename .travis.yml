@@ -1,13 +1,14 @@
 language: node_js
-node_js:
-  - "stable"
-cache:
-  directories:
-  - node_modules
-script:
+node_js: stable
+sudo: required
+dist: trusty
+sctipt:
   - cd inspection-report-client
+install:
+  - npm cache clean
   - npm install
-  - npm test
+script:
+  - npm run test
   - npm run build
 before_deploy:
   - cd build
